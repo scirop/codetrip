@@ -9,15 +9,15 @@ def index():
     return render_template('index.html')
 
 @app.route("/about")
-def index():
+def about():
     return render_template('about.html')
 
 @app.route("/portfolio")
-def index():
+def portfolio():
     return render_template('portfolio.html')
 
 @app.route("/contact")
-def index():
+def contact():
     return render_template('contact.html')
 
 
